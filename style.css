@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('path/to/DancingScript-Regular.ttf') format('truetype');
+  }
+  
+body{
+    background-image: url("img.jpeg");
+    background-size: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+h1,h2{
+    font-weight: bolder;
+}
+
+#wrapper{
+    background-color: rgba(255, 255, 255, 0.1);;
+    width: 90%;
+    max-width: 990px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    padding: 0,0 20px;
+    overflow:hidden;
+    border: 1px solid #03fc8c;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+#page-banner{
+    background-image: url("bg.jpg");
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#page-banner h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#page-banner h4{
+    text-align: center;
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#movie-list,
+#add-movie{
+    margin: 30px;
+}
+
+#movie-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#movie-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px,10px;
+}
+
+#movie-list li:hover{
+    border-color: #5a0067;
+}
+
+.delete{
+    float: right;
+    background: yellow ;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #5a0067;
+    border: 1px solid #5a0067 ;
+}
+
+.delete:hover{
+    background: #f9f3aa;
+}
+
+#add-movie{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-movie input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+    margin-left: 50px;
+}
+
+#add-movie button{
+    border: 1px solid #5a0067;
+    background: #03fc8c;
+    padding: 10px 20px;
+    font-size: 16px;;
+    margin: 0;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    width: 100px;
+    margin:  20px 0;
+    color: #5a0067;
+    position: absolute;
+    top: 100;
+    left: 60%;
+    -ms-transform: translate(50%,-50%);
+
+
+}
+
+#add-movie button:hover{
+    background: #cae9db;
+}
+#add-movie::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#add-movie label{
+    line-height: 52px;
+}
